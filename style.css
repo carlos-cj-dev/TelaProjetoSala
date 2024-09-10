@@ -1,0 +1,78 @@
+/* Estilizando o container do cartão */
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilizando o cabeçalho do cartão */
+  .card-header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Estilizando o corpo do cartão */
+  .card-body {
+    padding: 20px;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  /* Estilizando o título do cartão */
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilizando o texto do cartão */
+  .card-text {
+    font-size: 1rem;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilizando o botão */
+  .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Efeito ao passar o mouse sobre o botão */
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Efeito ao clicar no botão */
+  .btn-primary:active {
+    background-color: #004085;
+    transform: translateY(0);
+  }
+  .buttonReserv{
+    margin-top: 5%;
+  }
+  body{
+    height: 100vh;
+      background-image: linear-gradient(
+        45deg,
+        #16325B 10%,
+        black
+      );    
+  }
+  
