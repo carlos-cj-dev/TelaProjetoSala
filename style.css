@@ -9,9 +9,28 @@
     font-family: Arial, sans-serif;
   }
   
+  .card-body {
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid #dddddd;
+  }
+  .hours-badge {
+    position: absolute; /* Permite posicionamento exato */
+    top: 0; /* Alinha ao topo */
+    right: 0; /* Alinha à direita */
+    margin: 20px; /* Opcional: adiciona um espaçamento entre a borda e o badge */
+  }
+
+  .date-badge {
+    position: absolute; /* Permite posicionamento exato */
+    top: 0; /* Alinha ao topo */
+    right: 100px; /* Alinha à direita */
+    margin: 20px; /* Opcional: adiciona um espaçamento entre a borda e o badge */
+  }
+  
   /* Estilizando o cabeçalho do cartão */
   .card-header {
-    background-color: #007bff;
+    background-color: #001f3f;
     color: #ffffff;
     padding: 15px;
     font-size: 1.25rem;
@@ -20,15 +39,12 @@
   }
   
   /* Estilizando o corpo do cartão */
-  .card-body {
-    padding: 20px;
-    border-bottom: 1px solid #dddddd;
-  }
   
   /* Estilizando o título do cartão */
   .card-title {
     font-size: 1.5rem;
     margin-bottom: 10px;
+
   }
   
   /* Estilizando o texto do cartão */
